@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AgGridModule } from '@ag-grid-community/angular';
+import { SameerkaserverComponent } from './sameerkaserver/sameerkaserver.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SameerkaserverComponent
   ],
   imports: [
     BrowserModule,
